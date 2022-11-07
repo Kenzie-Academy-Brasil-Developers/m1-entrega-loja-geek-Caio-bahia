@@ -1,0 +1,95 @@
+
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid 	 #86838344;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.botao{
+
+    background-color:#0A99FE;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 3px 15px 3px 15px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    margin: 3px;
+}
+
+.botao:hover{
+    background-color: #0a98fe38;
+    color: #0A99FE;
+}
+
+#botao-02{
+    margin-right: 10px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    overflow-y: auto;
+    gap: 15px;
+    text-align: center;
+
+}
+
+li{
+    display: flex;
+    width: 207px;
+    height: 275px;
+    background-color:#beb9b9;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column  ;
+}
+
+.card img{
+    object-fit: cover;
+    max-height: 60%;
+    border-radius: 10px;
+}
+
+.card p{
+    font-size: 20px;
+}
+
+.card span{
+    font-size: 16px;
+}
+
+
+.titulo{
+    color: #1b1b1b;
+    font-size: 20px;
+}
+
+.card img{
+    width: 207px;
+    height: 275px;
+}
+
+
